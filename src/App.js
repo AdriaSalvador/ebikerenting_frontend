@@ -1,25 +1,41 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Home from './components/Home';
+
+class App extends React.Component {
+
+  render() {
+    return (
+      <div className="App">
+
+        <div class="sidenav">
+
+          <div class="topnav">
+            <img
+              src="/images/Ebikerenting_logo.png"
+              width="100px"
+              alt="Ebikerenting Logo"
+            />
+            <h2>E-BIKE RENTING</h2>
+            <p>La nova manera de gaudir de la muntanya</p>
+          </div>
+
+          <div class="bottomnav">
+            <a href="#">INICI</a>
+            <a href="#">LES BICICLETES MTB</a>
+            <a href="#">RUTES I EXCURSIONS</a>
+            <a href="#">RESERVA</a>
+            <a href="#">CONTACTE</a>
+          </div>
+        </div>
+
+        <Home/>
+
+      </div>
+    );
+  };
+
 }
 
 export default App;
