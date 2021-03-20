@@ -1,0 +1,14 @@
+.bikes{
+    position: absolute;
+    left: 15%;
+    max-width: 85%;
+    text-align: center;
+}
+
+.Haibike{
+    font-style: italic;
+}
+
+.container-point img{
+    transform: scaleX(-1)
+}
