@@ -1,11 +1,12 @@
-.home{
+
+.home {
     position: absolute;
     left: 15%;
     max-width: 85%;
     text-align: center;
 }
 
-.home-background img{
+.home-background img {
     top: 0;
     min-width: 100%; 
     max-height: 100vh;
@@ -16,7 +17,7 @@
     margin: 50px 25px;
 }
 
-.container-top hr{
+.container-top hr {
     color: #393939;
     width: 5%
 }
@@ -28,19 +29,19 @@
     margin: 100px 300px;
 }
 
-.container-point{
+.container-point {
     margin: 0px 30px;
 }
 
-.container-point h3{
+.container-point h3 {
     color: #393939;
 }
 
-.container-point p{
+.container-point p {
     color: #818181;
 }
 
-.container-point img{
+.container-point img {
     height: 70px;
     width: 70px;
 }

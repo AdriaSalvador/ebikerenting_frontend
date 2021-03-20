@@ -3,6 +3,7 @@ import './App.css';
 
 import Home from './components/Home';
 import Bikes from './components/Bikes';
+import Ride from './components/Ride';
 
 class App extends React.Component {
 
@@ -32,7 +33,8 @@ class App extends React.Component {
         </div>
 
         {/* <Home/> */}
-        <Bikes/>
+        {/* <Bikes/> */}
+        <Ride/>
 
       </div>
     );

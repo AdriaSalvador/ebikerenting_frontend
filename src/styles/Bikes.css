@@ -1,3 +1,4 @@
+
 .bikes{
     position: absolute;
     left: 15%;
@@ -7,6 +8,13 @@
 
 .Haibike{
     font-style: italic;
+}
+
+.bikes-background img{
+    top: 0;
+    min-width: 100%; 
+    max-height: 315px;
+    object-fit: cover;
 }
 
 .container-top {
