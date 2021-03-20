@@ -31,8 +31,8 @@ class App extends React.Component {
           </div>
         </div>
 
-        <Home/>
-        {/* <Bikes/> */}
+        {/* <Home/> */}
+        <Bikes/>
 
       </div>
     );

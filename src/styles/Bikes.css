@@ -9,6 +9,26 @@
     font-style: italic;
 }
 
+.container-top {
+    color: #393939;
+    margin: 50px 25px;
+}
+
+.container-bottom{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0px 300px 100px;
+}
+
+.container-point h3{
+    margin:50px 0px;
+}
+
 .container-point img{
-    transform: scaleX(-1)
+    transform: scaleX(-1);
+    height: 250px;
+    width: auto;
+    margin: 25px 0px;
 }
