@@ -17,7 +17,7 @@ const Home = (props) => {
 
             </div>
 
-            <div class="container-top">
+            <div class="container-top-home">
 
                 <h1>Lloguer de bicicletes elèctriques MTB</h1>
                 <hr />
@@ -28,9 +28,9 @@ const Home = (props) => {
 
             </div>
 
-            <div class="container-bottom">
+            <div class="container-bottom-home">
 
-                <div class="container-point">
+                <div class="subcontainer-bottom-home">
 
                     <img src="/images/Handshake.png" alt="Handshake" />
                     <h3>Comença i acaba la teva ruta des d'allà on vulguis</h3>
@@ -38,7 +38,7 @@ const Home = (props) => {
 
                 </div>
 
-                <div class="container-point">
+                <div class="subcontainer-bottom-home">
 
                     <img src="/images/Lightning.png" alt="Lightning" />
                     <h3>Bicicletes elèctriques MTB de les millors marques</h3>
@@ -46,7 +46,7 @@ const Home = (props) => {
 
                 </div>
 
-                <div class="container-point">
+                <div class="subcontainer-bottom-home">
 
                     <img src="/images/Camera.png" alt="Camera" />
                     <h3>Descobreix les nostres rutes i excursions</h3>
@@ -56,6 +56,27 @@ const Home = (props) => {
                 </div>
 
             </div>
+
+            <iframe
+                class="video"
+                src="https://www.youtube.com/embed/pACrIPYPn6o"
+                title="Vall de Lord"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+
+            </iframe>
+
+            <iframe
+                class="video"
+                src="https://www.youtube.com/embed/IlMrGG4qPgs"
+                title="Vall de Lord nevada"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+
+            </iframe>
+
 
         </div>
     )

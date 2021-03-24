@@ -21,7 +21,7 @@
   
 }
 
-.sidenav h2 {
+.sidenav h3 {
   color: #393939;
 }
 
@@ -50,6 +50,11 @@
 
 .topnav {
   margin-bottom: 20vh;
+}
+
+.topnav img{
+  height: 100px;
+  width: auto;
 }
 
 

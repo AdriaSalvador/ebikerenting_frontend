@@ -15,11 +15,11 @@ class App extends React.Component {
 
           <div class="topnav">
             <img
-              src="/images/Ebikerenting_logo.png"
+              src="/images/Ebikerenting_logo.jpeg"
               width="100px"
               alt="Ebikerenting Logo"
             />
-            <h2>E-BIKE RENTING</h2>
+            <h3>E-BIKE VALL DE LORD</h3>
             <p>La nova manera de gaudir de la muntanya</p>
           </div>
 

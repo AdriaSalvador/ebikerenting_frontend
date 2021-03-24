@@ -2,6 +2,62 @@
 .ride{
     position: absolute;
     left: 15%;
-    max-width: 85%;
-    text-align: center;
+    min-width: 85%;
+    text-align: left;
 }
+
+.container-top-ride hr {
+    color: #393939;
+    width: 10%;
+    margin-inline-start: 0em;
+}
+
+.ride-background img {
+    top: 0;
+    min-width: 100%;
+    max-height: 315px;
+    object-fit: cover;
+}
+
+.span-ride {
+    font-weight: bold;
+}
+
+.container-top-ride {
+    margin: 50px 350px;
+}
+
+.container-bottom-ride {
+    margin: 50px 350px;
+}
+
+.subcontainer-point-ride hr {
+    color: #393939;
+    width: 10%;
+    margin-inline-start: 0em;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+.routes-list li {
+  position: relative;
+	padding-bottom: 10px;
+}
+
+.routes-list {
+  list-style: none;
+}
+
+.routes-list li:before {
+    content: '';
+    position: absolute;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 5px;
+    height:5px;
+    top: calc(50% - 4px);
+    left: -30px;
+    transform: translateY(-50%) rotate(-45deg);
+ }

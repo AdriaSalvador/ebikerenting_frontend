@@ -1,41 +1,48 @@
 
-.bikes{
+.bikes {
     position: absolute;
     left: 15%;
     max-width: 85%;
-    text-align: center;
+    text-align: left;
 }
 
-.Haibike{
+.span-bikes {
     font-style: italic;
 }
 
-.bikes-background img{
+.bikes-background img {
     top: 0;
-    min-width: 100%; 
+    min-width: 100%;
     max-height: 315px;
     object-fit: cover;
 }
 
-.container-top {
+.container-top-bikes {
     color: #393939;
-    margin: 50px 25px;
+    margin: 50px 350px;
 }
 
-.container-bottom{
+.container-top-bikes hr {
+    color: #393939;
+    width: 10%;
+    margin-inline-start: 0em;
+}
+
+.container-bottom-bikes{
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
-    margin: 0px 300px 100px;
+    /* margin: 0px 250px 100px; */
+    margin: 50px 350px;
 }
 
-.container-point h3{
-    margin:50px 0px;
-}
+/* .subcontainer-point-bikes h3{
+    margin:50px 0px 0px;
+} */
 
-.container-point img{
-    transform: scaleX(-1);
+.subcontainer-point-bikes img{
+    /* transform: scaleX(-1); */
     height: 250px;
     width: auto;
     margin: 25px 0px;
