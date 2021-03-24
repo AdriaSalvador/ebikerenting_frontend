@@ -137,8 +137,9 @@ const Ride = (props) => {
                     <h1>Cambrils i la Ribera Salada</h1>
                     <hr />
                     <img src="/images/Camera.png" alt="Camera" />
-                    <p>No et perdis els racons que volem compartir amb tu. Un gran ventall d'opcions per a tots els gustos i nivells</p>
-                    <p>Dóna un cop d'ull al nostre instagram per més fotos i videos: @emtbrenting</p>
+                    <p>A la banda occidental de la Vall de Lord, hi trobem una zona que contrasta amb la resta de rutes. És una regió on hi abunden les pedres, un ambient més sec i uns congostos feréstecs, que deixen lloc a espais màgics ben curiosos</p>
+                    <p>La <span class="span-ride">Ribera Salada</span>, és un riu que porta la sal del Salí de Cambrils i que serpenteja per les roques del Solsonès. El <span class="span-ride">Pont del Clop</span>, és un indret ideal per disfrutar d'aquest riu a l'estiu</p>
+                    <p>A la part alta de la zona, hi trobem el municipi d'Odèn que englova petits nuclis com <span class="span-ride">Cambrils i Canalda</span>, plens de masies reconvertides en allotjaments rurals</p>
 
                 </div>
 
