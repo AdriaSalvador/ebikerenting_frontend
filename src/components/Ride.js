@@ -11,7 +11,7 @@ const Ride = (props) => {
 
                 <img
                     class="ride-img"
-                    src="/images/Background_Ride.jpeg"
+                    src="/images/Ride/Background_Ride.jpeg"
                     alt="Ride Mountain"
                 />
 

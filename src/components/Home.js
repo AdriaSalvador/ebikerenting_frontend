@@ -11,7 +11,7 @@ const Home = (props) => {
 
                 <img
                     class="home-img"
-                    src="/images/Background_Mountain.jpg"
+                    src="/images/Home/Background_Mountain.jpg"
                     alt="Home Mountain"
                 />
 
@@ -32,7 +32,7 @@ const Home = (props) => {
 
                 <div class="subcontainer-bottom-home">
 
-                    <img src="/images/Handshake.png" alt="Handshake" />
+                    <img src="/images/Home/Handshake.png" alt="Handshake" />
                     <h3>Comença i acaba la teva ruta des d'allà on vulguis</h3>
                     <p>Vetllem per la teva comoditat per tal de que tota l'exfursió sencera sigui un èxit assegurat</p>
 
@@ -40,7 +40,7 @@ const Home = (props) => {
 
                 <div class="subcontainer-bottom-home">
 
-                    <img src="/images/Lightning.png" alt="Lightning" />
+                    <img src="/images/Home/Lightning.png" alt="Lightning" />
                     <h3>Bicicletes elèctriques MTB de les millors marques</h3>
                     <p>Garantim màxima qualitat i seguretat durant l'excursió amb les nostres bicis elèctriques de muntanya</p>
 
@@ -48,7 +48,7 @@ const Home = (props) => {
 
                 <div class="subcontainer-bottom-home">
 
-                    <img src="/images/Camera.png" alt="Camera" />
+                    <img src="/images/Home/Camera.png" alt="Camera" />
                     <h3>Descobreix les nostres rutes i excursions</h3>
                     <p>No et perdis els racons que volem compartir amb tu. Un gran ventall d'opcions per a tots els gustos i nivells</p>
                     <p>Dóna un cop d'ull al nostre instagram per més fotos i videos: @emtbrenting</p>

@@ -11,7 +11,7 @@ const Bikes = (props) => {
 
                 <img
                     class="bikes-img"
-                    src="/images/Background_Bikes.jpeg"
+                    src="/images/Bikes/Background_Bikes.jpeg"
                     alt="Mountain Bikes"
                 />
 
@@ -33,7 +33,7 @@ const Bikes = (props) => {
 
                     <h3>La trialera</h3>
                     <p>Haibike Sduro AllMtn SL</p>
-                    <img src="/images/Haibike-sDuro-AllMtn-SL-2016.jpg" alt="Haibike Sduro AllMtn SL" />
+                    <img src="/images/Bikes/Haibike-sDuro-AllMtn-SL-2016.jpg" alt="Haibike Sduro AllMtn SL" />
                     <p>La més divertida i atrevida. Apte pels camins més tècnics</p>
                     <p> Doble suspensió. Motor de 250 W i 70 Nm de parell</p>
 
@@ -43,7 +43,7 @@ const Bikes = (props) => {
 
                     <h3>La fondista</h3>
                     <p>Haibike Sduro HardSeven</p>
-                    <img src="/images/Haibike-sDuro-Hard-Seven-2018.jpg" alt="Haibike Sduro HardSeven" />
+                    <img src="/images/Bikes/Haibike-sDuro-Hard-Seven-2018.jpg" alt="Haibike Sduro HardSeven" />
                     <p>Ideal per recórrer rutes llargues</p> <p>Suspensió a davant. Motor de 250 W i bateria de 400 Wh</p>
 
                 </div>
