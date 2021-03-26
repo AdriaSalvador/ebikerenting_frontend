@@ -35,14 +35,25 @@ const Ride = (props) => {
                     <h1>Busa i la Vall d'Aiguadora</h1>
                     <hr />
 
-                    <img src="/images/Handshake.png" alt="Handshake" />
+                    <div class="text-image">
 
-                    <p>Al voltat del curs del riu d'Aiguadora, hi trobem la vall que fa honor al seu nom, la <span class="span-ride">Vall d'Ora</span>. És una vall plena de racons màgics enmig de la naturalesa</p>
-                    <p>El riu transcorre entre les abrubtes parets de <span class="span-ride">Busa i Valielles</span>, un altiplà amb una elevació al voltant dels 1500 metres sobre el nivell del mar amb unes vistes immillorables</p>
-                    <p>Les nostres rutes travessen dues majestuoses fagedes que a la tardor, mostren els seus característics tons vermellosos des de lluny</p>
-                    <p>Al costat del riu, hi trobem l'emblemàtica església romànica de <span class="span-ride">Sant Pere de Graudescales</span></p>
+                        <img
+                            src="/images/Ride/Busa/Busa8.jpg"
+                            alt="Busa"
+                        />
 
-                    <div class="grid-container">
+                        <div class="text-description">
+
+                            <p>Al voltat del curs del riu d'Aiguadora, hi trobem la vall que fa honor al seu nom, la <span class="span-ride">Vall d'Ora</span>. És una vall plena de racons màgics enmig de la naturalesa</p>
+                            <p>El riu transcorre entre les abrubtes parets de <span class="span-ride">Busa i Valielles</span>, un altiplà amb una elevació al voltant dels 1500 metres sobre el nivell del mar amb unes vistes immillorables</p>
+                            <p>Les nostres rutes travessen dues majestuoses fagedes que a la tardor, mostren els seus característics tons vermellosos des de lluny</p>
+                            <p>Al costat del riu, hi trobem l'emblemàtica església romànica de <span class="span-ride">Sant Pere de Graudescales</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="grid-container-busa">
                         <div class="grid-item1">
                             <img
                                 src="/images/Ride/Busa/Busa.jpg"
@@ -91,12 +102,7 @@ const Ride = (props) => {
                                 alt="Busa"
                             />
                         </div>
-                        <div class="grid-item9">
-                            <img
-                                src="/images/Ride/Busa/Busa8.jpg"
-                                alt="Busa"
-                            />
-                        </div>
+
                     </div>
 
                     <p class="underline">Rutes proposades:</p>
@@ -117,12 +123,99 @@ const Ride = (props) => {
                     <h1>Guixers, Gósol i Serra d'Ensija</h1>
                     <hr />
 
-                    <img src="/images/Lightning.png" alt="Lightning" />
+                    <div class="text-image">
 
-                    <p><span class="span-ride">Guixers</span> és un municipi del Solsonès format per nuclis rurals disseminades arreu. També s'hi poden trobar fins a vuit ermites</p>
-                    <p>A peus de la immponent <span class="span-ride">Serra del Cadí</span> i del <span class="span-ride">Pedraforca</span>, hi trobem <span class="span-ride">Gósol</span>. La plaça major és el lloc ideal per parar a prendre alguna cosa i descansar durant la ruta</p>
-                    <p><span class="span-ride">La Serra d'Ensija</span>, és una muntanya emblemàtica del Berguedà i compta amb un refugi per fer-hi posada. Aquesta comprèn l'antiga estació d'esquí dels <span class="span-ride">Rasos de Peguera</span></p>
-                    <p>Aquesta zona ofereix rutes que visiten llocs preciosos sempre envoltats de bosc, des de rius fins a vistes panoràmiques des d'alta muntanya, tot visitant pobles amb encant com <span class="span-ride">Saldes</span> i <span class="span-ride">Vallcebre</span></p>
+                        <img
+                            src="/images/Ride/Guixers/Guixers11.jpg"
+                            alt="Guixers"
+                        />
+
+                        <div class="text-description">
+
+                            <p><span class="span-ride">Guixers</span> és un municipi del Solsonès format per nuclis rurals disseminades arreu. També s'hi poden trobar fins a vuit ermites</p>
+                            <p>A peus de la immponent <span class="span-ride">Serra del Cadí</span> i del <span class="span-ride">Pedraforca</span>, hi trobem <span class="span-ride">Gósol</span>. La plaça major és el lloc ideal per parar a prendre alguna cosa i descansar durant la ruta</p>
+                            <p><span class="span-ride">La Serra d'Ensija</span>, és una muntanya emblemàtica del Berguedà i compta amb un refugi per fer-hi posada. Aquesta comprèn l'antiga estació d'esquí dels <span class="span-ride">Rasos de Peguera</span></p>
+                            <p>Aquesta zona ofereix rutes que visiten llocs preciosos sempre envoltats de bosc, des de rius fins a vistes panoràmiques des d'alta muntanya, tot visitant pobles amb encant com <span class="span-ride">Saldes</span> i <span class="span-ride">Vallcebre</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="grid-container-guixers">
+                        <div class="grid-item1">
+                            <img
+                                src="/images/Ride/Guixers/Guixers.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item2">
+                            <img
+                                src="/images/Ride/Guixers/Guixers1.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item3">
+                            <img
+                                src="/images/Ride/Guixers/Guixers2.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item4">
+                            <img
+                                src="/images/Ride/Guixers/Guixers3.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item5">
+                            <img
+                                src="/images/Ride/Guixers/Guixers4.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item6">
+                            <img
+                                src="/images/Ride/Guixers/Guixers5.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item7">
+                            <img
+                                src="/images/Ride/Guixers/Guixers6.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item8">
+                            <img
+                                src="/images/Ride/Guixers/Guixers7.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item9">
+                            <img
+                                src="/images/Ride/Guixers/Guixers8.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item10">
+                            <img
+                                src="/images/Ride/Guixers/Guixers9.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item11">
+                            <img
+                                src="/images/Ride/Guixers/Guixers10.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+                        <div class="grid-item12">
+                            <img
+                                src="/images/Ride/Guixers/Guixers11.jpg"
+                                alt="Guixers"
+                            />
+                        </div>
+
+                    </div>
 
                     <p class="underline">Rutes proposades:</p>
 
