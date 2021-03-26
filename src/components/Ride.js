@@ -42,6 +42,63 @@ const Ride = (props) => {
                     <p>Les nostres rutes travessen dues majestuoses fagedes que a la tardor, mostren els seus característics tons vermellosos des de lluny</p>
                     <p>Al costat del riu, hi trobem l'emblemàtica església romànica de <span class="span-ride">Sant Pere de Graudescales</span></p>
 
+                    <div class="grid-container">
+                        <div class="grid-item1">
+                            <img
+                                src="/images/Ride/Busa/Busa.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                        <div class="grid-item2">
+                            <img
+                                src="/images/Ride/Busa/Busa1.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                        <div class="grid-item3">
+                            <img
+                                src="/images/Ride/Busa/Busa2.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                        <div class="grid-item4">
+                            <img
+                                src="/images/Ride/Busa/Busa3.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                        <div class="grid-item5">
+                            <img
+                                src="/images/Ride/Busa/Busa4.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                        <div class="grid-item6">
+                            <img
+                                src="/images/Ride/Busa/Busa5.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                        <div class="grid-item7">
+                            <img
+                                src="/images/Ride/Busa/Busa6.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                        <div class="grid-item8">
+                            <img
+                                src="/images/Ride/Busa/Busa7.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                        <div class="grid-item9">
+                            <img
+                                src="/images/Ride/Busa/Busa8.jpg"
+                                alt="Busa"
+                            />
+                        </div>
+                    </div>
+
                     <p class="underline">Rutes proposades:</p>
 
                     <ul class="routes-list">
