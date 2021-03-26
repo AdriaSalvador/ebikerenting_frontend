@@ -237,12 +237,75 @@ const Ride = (props) => {
                     <h1>Vall de Lord: Sant Llorenç i la Coma</h1>
                     <hr />
 
-                    <img src="/images/Camera.png" alt="Camera" />
+                    <div class="text-image">
 
-                    <p><span class="span-ride">Sant Llorenç de Morunys</span>, és la capital de la Vall de Lord i alhora el segon poble amb més habitants del Solsonès. Hi ha una gran varietat d'activitats turístiques durant tot l'any</p>
-                    <p>Més cap al nord, seguit el riu Cardener, hi trobem els veinats de <span class="span-ride">la Coma i la Pedra</span>, dos nuclis fets majoritàriament de pedra i amb molt encant</p>
-                    <p>Des de qualsevol punt es pot veure el pantà de la <span class="span-ride">Llosa del Cavall</span>, d'un color blau turquesa característic</p>
-                    <p>També hi ha el <span class="span-ride">Santuari de Lord</span>, un monestir situat a un altipà on només s'hi pot arribar a través d'unes escales</p>
+                        <img
+                            src="/images/Ride/VallLord/Vall_de_Lord3.jpg"
+                            alt="Vall de Lord"
+                        />
+
+                        <div class="text-description">
+
+                            <p><span class="span-ride">Sant Llorenç de Morunys</span>, és la capital de la Vall de Lord i alhora el segon poble amb més habitants del Solsonès. Hi ha una gran varietat d'activitats turístiques durant tot l'any</p>
+                            <p>Més cap al nord, seguit el riu Cardener, hi trobem els veinats de <span class="span-ride">la Coma i la Pedra</span>, dos nuclis fets majoritàriament de pedra i amb molt encant</p>
+                            <p>Des de qualsevol punt es pot veure el pantà de la <span class="span-ride">Llosa del Cavall</span>, d'un color blau turquesa característic</p>
+                            <p>També hi ha el <span class="span-ride">Santuari de Lord</span>, un monestir situat a un altipà on només s'hi pot arribar a través d'unes escales</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="grid-container-busa">
+                        <div class="grid-item1">
+                            <img
+                                src="/images/Ride/VallLord/Vall_de_Lord.jpg"
+                                alt="Vall de Lord"
+                            />
+                        </div>
+                        <div class="grid-item2">
+                            <img
+                                src="/images/Ride/VallLord/Vall_de_Lord1.jpg"
+                                alt="Vall de Lord"
+                            />
+                        </div>
+                        <div class="grid-item3">
+                            <img
+                                src="/images/Ride/VallLord/Vall_de_Lord2.jpg"
+                                alt="Vall de Lord"
+                            />
+                        </div>
+                        <div class="grid-item4">
+                            <img
+                                src="/images/Ride/VallLord/Vall_de_Lord3.jpg"
+                                alt="Vall de Lord"
+                            />
+                        </div>
+                        <div class="grid-item5">
+                            <img
+                                src="/images/Ride/VallLord/Vall_de_Lord4.jpg"
+                                alt="Vall de Lord"
+                            />
+                        </div>
+                        <div class="grid-item6">
+                            <img
+                                src="/images/Ride/VallLord/Vall_de_Lord5.jpg"
+                                alt="Vall de Lord"
+                            />
+                        </div>
+                        <div class="grid-item7">
+                            <img
+                                src="/images/Ride/VallLord/Vall_de_Lord6.jpg"
+                                alt="Vall de Lord"
+                            />
+                        </div>
+                        <div class="grid-item8">
+                            <img
+                                src="/images/Ride/VallLord/Vall_de_Lord7.jpg"
+                                alt="Vall de Lord"
+                            />
+                        </div>
+
+                    </div>
 
                     <p class="underline">Rutes proposades:</p>
 
@@ -262,12 +325,51 @@ const Ride = (props) => {
                     <h1>Port del Compte, Josa i Tuixent</h1>
                     <hr />
 
-                    <img src="/images/Camera.png" alt="Camera" />
+                    <div class="text-image">
 
-                    <p>La <span class="span-ride">Serra del Port el Compte</span>, elevada darrere el poble de Sant Llorenç de Morunys, ens proporciona rutes per un tipus de paisatge diferent: l'alta muntanya, a més, d'unes vistes espectaculars degut a la seva altitut</p>
-                    <p>A la vessant nord d'aquesta, s'hi troben les pistes d'esquí de fons de <span class="span-ride">Tuixent - La Vansa</span>. Quan es fon la neu, es converteixen en magnífics senders per anar en bicicleta</p>
-                    <p>Darrere del Port del Compte i a peus del <span class="span-ride">Cadí</span>, hi ha la Vall de la Vansa i la de Tuixent,  habitada per petits pobles com <span class="span-ride">Josa, Tuixent i Ossera</span></p>
-                    <p>Aquesta zona ofereix rutes per llocs molt tranquils, d'ambient rural d'alta muntanya</p>
+                        <img
+                            src="/images/Ride/Tuixent/Tuixent.jpg"
+                            alt="Tuixent"
+                        />
+
+                        <div class="text-description">
+
+                            <p>La <span class="span-ride">Serra del Port el Compte</span>, elevada darrere el poble de Sant Llorenç de Morunys, ens proporciona rutes per un tipus de paisatge diferent: l'alta muntanya, a més, d'unes vistes espectaculars degut a la seva altitut</p>
+                            <p>A la vessant nord d'aquesta, s'hi troben les pistes d'esquí de fons de <span class="span-ride">Tuixent - La Vansa</span>. Quan es fon la neu, es converteixen en magnífics senders per anar en bicicleta</p>
+                            <p>Darrere del Port del Compte i a peus del <span class="span-ride">Cadí</span>, hi ha la Vall de la Vansa i la de Tuixent,  habitada per petits pobles com <span class="span-ride">Josa, Tuixent i Ossera</span></p>
+                            <p>Aquesta zona ofereix rutes per llocs molt tranquils, d'ambient rural d'alta muntanya</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="grid-container-tuixent">
+                        <div class="grid-item1">
+                            <img
+                                src="/images/Ride/Tuixent/Tuixent1.jpg"
+                                alt="Tuixent"
+                            />
+                        </div>
+                        <div class="grid-item2">
+                            <img
+                                src="/images/Ride/Tuixent/Tuixent4.jpg"
+                                alt="Tuixent"
+                            />
+                        </div>
+                        <div class="grid-item3">
+                            <img
+                                src="/images/Ride/Tuixent/Tuixent.jpg"
+                                alt="Tuixent"
+                            />
+                        </div>
+                        <div class="grid-item4">
+                            <img
+                                src="/images/Ride/Tuixent/Tuixent3.jpg"
+                                alt="Tuixent"
+                            />
+                        </div>
+
+                    </div>
 
                     <p class="underline">Rutes proposades:</p>
 
