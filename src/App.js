@@ -4,6 +4,7 @@ import './App.css';
 import Home from './components/Home';
 import Bikes from './components/Bikes';
 import Ride from './components/Ride';
+import Booking from './components/Booking';
 
 class App extends React.Component {
 
@@ -34,7 +35,8 @@ class App extends React.Component {
 
         {/* <Home/> */}
         {/* <Bikes/> */}
-        <Ride/>
+        {/* <Ride/> */}
+        <Booking/>
 
       </div>
     );

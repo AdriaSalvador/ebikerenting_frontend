@@ -1,0 +1,29 @@
+
+.booking {
+    position: absolute;
+    left: 15%;
+    max-width: 85%;
+    text-align: left;
+}
+
+.span-booking {
+    font-style: italic;
+}
+
+.booking-background img {
+    top: 0;
+    min-width: 100%;
+    max-height: 315px;
+    object-fit: cover;
+}
+
+.container-top-booking {
+    color: #393939;
+    margin: 50px 350px;
+}
+
+.container-top-booking hr {
+    color: #393939;
+    width: 10%;
+    margin-inline-start: 0em;
+}
