@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Bikes from './components/Bikes';
 import Ride from './components/Ride';
 import Booking from './components/Booking';
+import Contact from './components/Contact';
 
 class App extends React.Component {
 
@@ -36,7 +37,8 @@ class App extends React.Component {
         {/* <Home/> */}
         {/* <Bikes/> */}
         {/* <Ride/> */}
-        <Booking/>
+        {/* <Booking/> */}
+        <Contact/>
 
       </div>
     );
