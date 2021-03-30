@@ -49,7 +49,7 @@ const Home = (props) => {
                 <div className="subcontainer-bottom-home">
 
                     <img src="/images/Home/Camera.png" alt="Camera" />
-                    <h3>Descobreix les nostres rutes i excursions</h3>
+                    <h4>Descobreix les nostres rutes i excursions</h4>
                     <p>No et perdis els racons que volem compartir amb tu. Un gran ventall d'opcions per a tots els gustos i nivells</p>
                     <p>Dóna un cop d'ull al nostre instagram per més fotos i videos: @emtbrenting</p>
 
