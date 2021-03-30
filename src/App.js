@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+import { Link, Route } from 'react-router-dom'
+
 import Home from './components/Home';
 import Bikes from './components/Bikes';
 import Ride from './components/Ride';
@@ -13,9 +15,9 @@ class App extends React.Component {
     return (
       <div className="App">
 
-        <div class="sidenav">
+        <div className="sidenav">
 
-          <div class="topnav">
+          <div className="topnav">
             <img
               src="/images/Ebikerenting_logo.jpeg"
               width="100px"
@@ -25,20 +27,55 @@ class App extends React.Component {
             <p>La nova manera de gaudir de la muntanya</p>
           </div>
 
-          <div class="bottomnav">
-            <a href="#">INICI</a>
-            <a href="#">LES BICICLETES MTB</a>
-            <a href="#">RUTES I EXCURSIONS</a>
-            <a href="#">RESERVA</a>
-            <a href="#">CONTACTE</a>
+          <div className="bottomnav">
+
+            <Link to="/">
+              <span>INICI</span>
+            </Link>
+
+            <Link to="/bicis">
+              <span>LES BICICLETES MTB</span>
+            </Link>
+
+            <Link to="/rutes">
+              <span>RUTES I EXCURSIONS</span>
+            </Link>
+
+            <Link to="/reserva">
+              <span>RESERVA</span>
+            </Link>
+
+            <Link to="/contacte">
+              <span>CONTACTE</span>
+            </Link>
+
           </div>
         </div>
 
-        {/* <Home/> */}
-        {/* <Bikes/> */}
-        {/* <Ride/> */}
-        {/* <Booking/> */}
-        <Contact/>
+        <Route
+          exact path="/"
+          render={() => <Home />}
+        />
+
+        <Route
+          path="/bicis"
+          render={() => <Bikes />}
+        />
+
+        <Route
+          path="/rutes"
+          render={() => <Ride />}
+        />
+
+        <Route
+          path="/reserva"
+          render={() => <Booking />}
+        />
+
+        <Route
+          path="/contacte"
+          render={() => <Contact />}
+        />
 
       </div>
     );

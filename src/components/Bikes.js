@@ -5,31 +5,31 @@ import '../styles/Bikes.css'
 const Bikes = (props) => {
 
     return (
-        <div class="bikes">
+        <div className="bikes">
 
-            <div class="bikes-background">
+            <div className="bikes-background">
 
                 <img
-                    class="bikes-img"
+                    className="bikes-img"
                     src="/images/Bikes/Background_Bikes.jpeg"
                     alt="Mountain Bikes"
                 />
 
             </div>
 
-            <div class="container-top-bikes">
+            <div className="container-top-bikes">
 
                 <h1>Les nostres bicis elèctriques de muntanya</h1>
                 <h3>Bicicletes de les marques capdavanteres del sector de les elèctriques MTB</h3>
                 <hr />
-                <p><span class="span-bikes">Haibike</span> és popularment coneguda com la marca pionera i líder aquest sector, per tant, podem estar orgullosos d'oferir un servei competent i actualitzat a les novetats del mercat</p>
+                <p><span className="span-bikes">Haibike</span> és popularment coneguda com la marca pionera i líder aquest sector, per tant, podem estar orgullosos d'oferir un servei competent i actualitzat a les novetats del mercat</p>
                 <p>D'aquesta manera garantim màxima seguretat durant l'excursió i una qualitat òptima de les nostres bicis elèctriques de muntanya</p>
 
             </div>
 
-            <div class="container-bottom-bikes">
+            <div className="container-bottom-bikes">
 
-                <div class="subcontainer-point-bikes">
+                <div className="subcontainer-point-bikes">
 
                     <h3>La trialera</h3>
                     <p>Haibike Sduro AllMtn SL</p>
@@ -39,7 +39,7 @@ const Bikes = (props) => {
 
                 </div>
 
-                <div class="subcontainer-point-bikes">
+                <div className="subcontainer-point-bikes">
 
                     <h3>La fondista</h3>
                     <p>Haibike Sduro HardSeven</p>

@@ -5,19 +5,19 @@ import '../styles/Home.css'
 const Home = (props) => {
 
     return (
-        <div class="home">
+        <div className="home">
 
-            <div class="home-background">
+            <div className="home-background">
 
                 <img
-                    class="home-img"
+                    className="home-img"
                     src="/images/Home/Background_Mountain.jpg"
                     alt="Home Mountain"
                 />
 
             </div>
 
-            <div class="container-top-home">
+            <div className="container-top-home">
 
                 <h1>Lloguer de bicicletes elèctriques MTB</h1>
                 <hr />
@@ -28,9 +28,9 @@ const Home = (props) => {
 
             </div>
 
-            <div class="container-bottom-home">
+            <div className="container-bottom-home">
 
-                <div class="subcontainer-bottom-home">
+                <div className="subcontainer-bottom-home">
 
                     <img src="/images/Home/Handshake.png" alt="Handshake" />
                     <h3>Comença i acaba la teva ruta des d'allà on vulguis</h3>
@@ -38,7 +38,7 @@ const Home = (props) => {
 
                 </div>
 
-                <div class="subcontainer-bottom-home">
+                <div className="subcontainer-bottom-home">
 
                     <img src="/images/Home/Lightning.png" alt="Lightning" />
                     <h3>Bicicletes elèctriques MTB de les millors marques</h3>
@@ -46,7 +46,7 @@ const Home = (props) => {
 
                 </div>
 
-                <div class="subcontainer-bottom-home">
+                <div className="subcontainer-bottom-home">
 
                     <img src="/images/Home/Camera.png" alt="Camera" />
                     <h3>Descobreix les nostres rutes i excursions</h3>
@@ -58,22 +58,22 @@ const Home = (props) => {
             </div>
 
             <iframe
-                class="video"
+                className="video"
                 src="https://www.youtube.com/embed/pACrIPYPn6o"
                 title="Vall de Lord"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
+                allowFullScreen>
 
             </iframe>
 
             <iframe
-                class="video"
+                className="video"
                 src="https://www.youtube.com/embed/IlMrGG4qPgs"
                 title="Vall de Lord nevada"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
+                allowFullScreen>
 
             </iframe>
 

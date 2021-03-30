@@ -5,19 +5,19 @@ import '../styles/Booking.css'
 const Booking = (props) => {
 
     return (
-        <div class="booking">
+        <div className="booking">
 
-            <div class="booking-background">
+            <div className="booking-background">
 
                 <img
-                    class="bikes-img"
+                    className="bikes-img"
                     src="/images/Booking/Background_Booking.jpg"
                     alt="Mountain"
                 />
 
             </div>
 
-            <div class="container-top-booking">
+            <div className="container-top-booking">
 
                 <h1>Preus</h1>
                 <h3>El pagament s'efectuarà durant l'entrega de les bicicletes i s'haurà d'escanejar el DNI de cada ciclista i deixar una fiança. Es pot pagar en efectiu, targeta o bizum</h3>
